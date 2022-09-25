@@ -1,0 +1,49 @@
+.frontpage{
+    display:flex;
+    flex-direction: row;
+    margin-left: 40px;
+    position: relative;
+    padding-top: 100px;
+}
+
+.image{
+    background-color: aqua;
+    width: 400px;
+    height:400px;
+}
+
+.actionable{
+    flex:1;
+}
+
+.action-quote{
+    font-size: 36px;
+    font-family: roboto;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: rgb(74, 74, 74);
+}
+
+.action-buttons{
+    margin-left: 250px;
+}
+
+.action-buttons button{
+    position: static;
+    margin-top:100px;
+    font-size: 13px;
+    border: 1px solid rgb(24,101,242);
+    background-color: rgb(24,101,242);
+    color: rgb(255, 255, 255);
+    padding: 3%;
+border-radius: 3px;
+box-shadow: 0px 1px 1px rgb(158, 158, 158);
+}
+
+.grip{
+    background-color: aquamarine;
+    width: 100px;
+    height:400px;
+    margin-right: 40px;
+}
